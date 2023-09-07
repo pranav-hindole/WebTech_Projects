@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightgray;
+        }
+
+        main {
+            height: 160vh;
+            width: 98vw;
+            background-color: rgba(186, 172, 172, 0.756);
+        }
+
+        main header nav {
+            padding: 60px 40px;
+            background-color: rgb(170, 100, 240);
+            border-radius: 30px;
+        }
+
+        main header nav a {
+            text-decoration: none;
+            color: white;
+            padding: 20px 15px;
+            background-color: rgb(249, 8, 8);
+            border-radius: 20px;
+            box-shadow: 4px 4px 4px white;
+            margin-left: 10px;
+        }
+
+        nav div {
+            height: 10px;
+            width: 670px;
+            margin-left: 400px;
+        }
+
+        .class {
+            height: 300px;
+            width: 270px;
+
+            display: inline-block;
+            margin-top: 100px;
+            margin-left: 180px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-style: none;
+            box-shadow: 6px -6px 6px rgb(86, 81, 81);
+        }
+
+        .class1 {
+            height: 35px;
+            width: 270px;
+            border: 1px solid;
+            display: inline-block;
+            background-color: white;
+            margin-top: -1px;
+            margin-left: 180px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            box-shadow: 2px 6px 6px black;
+            text-align: center;
+            text-shadow: 1px 1px 1px white;
+        }
+
+        #content1 {
+            background-image: url(./SadabaharGeetMarathi_99973662_201803201521530808327.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #content2 {
+            background-image: url(./HINDISONGS.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #content3 {
+            background-image: url(./englishsongs-about-changing-your-mind.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .class3 {
+            height: 500px;
+            width: 1400px;
+            border: 1px solid;
+            margin-left: 50px;
+            border-radius: 20px;
+            display: inline-block;
+            background-color: rgb(100, 229, 255);
+            margin-top: 20px;
+        }
+
+        .class2 {
+            height: 450px;
+            width: 600px;
+            border: 1px solid;
+            border-radius: 20px;
+            margin-left: 60px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        #content4 {
+            background-position: center;
+            background-size: cover;
+        }
+
+        #content5 {
+            background-color: rgb(100, 100, 190);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <div id="butparent">
+                    <a href="#">मराठी गाणी</a>
+                    <a href="#">हिंदी गाणी</a>
+                    <a href="#">EnglishSongs</a>
+                    <a href="#">HOME</a>
+                    <a href="#">CONTACT</a>
+                    <a href="#">ABOUT</a>
+                </div>
+            </nav>
+        </header>
+        <div class="class" id="content1"></div>
+        <div class="class" id="content2"></div>
+        <div class="class" id="content3"></div>
+        <div class="class1" id="text1"><b>Evergreen Marathi Songs</b></div>
+        <div class="class1" id="text2"><b>Latest Hindi Songs</b></div>
+        <div class="class1" id="text3"><b>Rocking English Songs</b></div>
+
+        <div class="class3">
+            <div class="class2" id="content4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6029.502739982239!2d73.77229762865741!3d18.607937034870723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b92a6dd587f5%3A0x8c3f461de6134c8a!2sQSpiders%20Pune%20Wakad!5e0!3m2!1sen!2sin!4v1677242313274!5m2!1sen!2sin"
+                    width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="class2" id="content5">
+                <form action="">
+                    <table>
+                        <tr>
+                            <h1>Contact Details</h1>
+                        </tr>
+                        <tr>
+                            <p>Contact us for latest updates of songs</p>
+                        </tr>
+                        <br />
+                        <input type="text" placeholder="Your full name" size="20" />
+                        <br />
+                        <br />
+                        <input type="text" placeholder="Your email address" />
+                        <br />
+                        <br />
+                        <input type="text" placeholder="Your phone number" />
+                        <br />
+                        <br />
+                        <textarea name="" id="" cols="20" rows="9" placeholder="Enter your query/feedback"></textarea>
+                        <br />
+                        <br />
+                        <input type="submit" />
+                    </table>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
